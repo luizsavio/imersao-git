@@ -1,0 +1,92 @@
+h1{
+    color: red;
+    font-weight: bold;
+}
+
+.teste{
+    color: aqua;
+}
+
+#te{
+    color: tomato;
+}
+
+/* irmão adjacentes */
+p + p{
+    color: blueviolet;
+}
+
+/* irmãos gerais */
+
+p ~ p{
+    color: aqua;
+}
+
+div > p{
+    color: brown;
+}
+
+div p{
+    color: blue;
+}
+
+div p{
+    color: darkslategrey;
+}
+
+input{
+    font-size: 4rem;
+    border: 2px #34495e solid;
+    outline: none;
+}
+
+input:hover{
+    background: #2c3e50;
+    color: white;
+}
+
+input:focus{
+    border-color: #e67e22;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+button:active{
+    background: red;
+}
+
+button:disabled{
+    background: rgba(0, 0, 0, 0.6);
+    cursor: not-allowed;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* pega somente a area que ocupa */
+}
+
+ul li{
+    padding: 1rem 3rem;
+    margin-bottom: 4px;
+    background: #c9c9c9;
+}
+
+ul li:first-child{
+    border-radius: 5px 5px 0 0;
+}
+
+ul li:last-child{
+    border-radius: 0 0 5px 5px;
+}
+ul li:nth-of-type(2){
+    background: black;
+    color: white;
+}
+
+ul li:not(.item){
+    background: #fd79a8;
+}
