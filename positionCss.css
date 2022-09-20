@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.box{
+    position: relative;
+    background: #9b59b6;
+    padding: 1.5rem;
+    width: 600px;
+    margin: 120px auto;
+}
+
+.alert{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #272727;
+    color: white;
+    padding: 1.5rem;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    background: rgb(54, 53, 53);
+    color: white;
+}
+
+nav h1{
+    margin: 0;
+}
+
+.box1, .box2{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.box1{
+    background: red;
+}
+.box2{
+    background: green;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    background: rgb(54, 53, 53);
+    color: white;
+}
+
+nav h1{
+    margin: 0;
+}
